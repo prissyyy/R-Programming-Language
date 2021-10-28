@@ -12,7 +12,6 @@ summary(bodyfat)
 set.seed(123)
 ind <- sample(2, nrow(bodyfat), 
               replace=TRUE, prob=c(0.8, 0.2))
-
 ind
 
 trainData <- bodyfat[ind==1,]
@@ -42,7 +41,6 @@ accuracy <- sum(diag(testPred))
 accuracy
 print(paste('Accuracy for test',accuracy))
 
-
 ##Random Forest
 install.packages("randomForest")
 
@@ -51,6 +49,7 @@ ind <- sample(2, nrow(bodyfat),
               replace=TRUE, 
               prob=c(0.7, 0.3))
 ind
+
 training <- bodyfat[ind==1,]
 training
 testing <- bodyfat[ind==2,]
