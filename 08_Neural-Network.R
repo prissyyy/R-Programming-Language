@@ -2,7 +2,7 @@
 install.packages("KMsurv")
 library(survival)
 
-#Memanggi Data di R Data Sets
+#Memanggi Data di library Survival
 data(diabetic)
 View(diabetic)
 str(diabetic)
