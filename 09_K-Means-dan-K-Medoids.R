@@ -1,4 +1,4 @@
-###SYNTAX K-MEANS (CONTOH)###
+###SYNTAX K-MEANS###
 
 #Loading Packages#
 install.packages("cluster.datasets")
